@@ -1,1 +1,4 @@
 #Este es un archivo de prueba nomas
+
+#va una versión 2:
+echo Hola que tal
