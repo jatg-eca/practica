@@ -1,0 +1,9 @@
+echo Estuve copiando. Esta es la copia.
+
+#Se copio esto:
+#-------------------------------
+
+#Este es un archivo de prueba nomas
+
+#va una versión 2:
+echo Hola que tal
