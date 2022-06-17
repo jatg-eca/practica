@@ -2,10 +2,14 @@ function cambiarHeaderDos (nuevoH) {
     document.getElementsByTagName("h2")[0].innerHTML = nuevoH;
 }
 
+/**
+ * Jeje. Esta función llama a otra función
+ * para cambiar el headerDos cada 2 segundos
+ */
 function cambios2000() {
     let headerDos = document.getElementsByTagName("h2")[0].innerHTML;
     if (headerDos == "Belinda y Nodal") {
-        cambiarHeaderDos("Aaaaa");
+        cambiarHeaderDos("¡Impongo moda para las niñas!");
     }
     else {
         cambiarHeaderDos("Belinda y Nodal");
