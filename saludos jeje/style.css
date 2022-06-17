@@ -1,6 +1,25 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/*Este comentario es para decir que el bloque anterior
+cambiar lo que ocurre en toda la hoja de estilos*/
 
 h1 {
     background-color: black;
     color: beige;
-}  
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    padding: 25px;
+    text-align: center;
+}
+
+p {
+    padding: 20px;
+    font-family: Garamond;
+    line-height: 35px;
+}
