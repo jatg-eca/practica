@@ -10,16 +10,23 @@ h1 {
     background-color: black;
     color: beige;
     padding: 20px;
+    font-family: Verdana;
     text-align: center;
 }
 
 h2 {
     padding: 25px;
+    font-family: Verdana;
     text-align: center;
+}
+
+h3 {
+    padding: 20px;
+    font-family: Verdana;
 }
 
 p {
     padding: 20px;
-    font-family: Garamond;
+    font-family: Verdana;
     line-height: 35px;
 }
