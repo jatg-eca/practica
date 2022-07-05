@@ -10,7 +10,8 @@
     <!--CSS de Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css_main.css">
+    <!--CSS propio para personalizar otras cosas-->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -23,8 +24,9 @@
             </a>
 
             <!--Un botón para que muestre el menú de la navbar-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
 
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,10 +60,56 @@
     </div>
 
     <!--RIBBON-->
+    <div id="ribbon" class="container-fluid">
+        <div id="text-frame" class="container w-50 pl-5 rounded-lg">
+            <!--En esta capa va imagen y texto de ribbon-->
+            <div class="row align-items-center">
+                <!---Imagen de ribbon-->
+                <div class="col-sm p-3">
+                    <img src="img/forum_icon_8cfbea0547.png" class="w-75 mx-auto d-block"
+                        alt="Imagen de trabajo en equipo">
+                </div>
+                <!--Texto de ribbon-->
+                <div class="col-sm p-3 text-light text-center">
+                    <p class="text-light">
+                        "We have to work as a team, I need you to survive so that I can survive!"
+                    </p>
+                    <h4 class="text-shadow">
+                        Death is not an escape
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--SEPARADOR RIBBON-->
+    <div id="separator">
+        <div class="content bg-dark"></div>
 
-    <!--GAMES-->
+    </div>
+
+    <!--DLC-->
+    <div class="dlc-cards">
+        <div class="container-md p-5">
+            <div class="row pt-5">
+                <h3 class="text-center pb-5 pt-5 h1">See you in the fog...</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5" style="width: 18rem;">
+                        <img src="img/observer_arch.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <!--SEPARADOR AMIIBOS-->
 
@@ -70,7 +118,7 @@
     <!--PLAY-->
 
     <!--FOOTER-->
-  <!--  CDN: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+    <!--  CDN: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
     <script src="js/popper.min.js"></script>
     <!--Script de bootstrap-->
     <script src="js/bootstrap.bundle.min.js"
