@@ -8,8 +8,7 @@
     <title>Sitio Abuelo Bootstrap</title>
 
     <!--CSS de Bootstrap-->
-    <link rel="stylesheet" href="css/bootstrap.min.css"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!--CSS propio para personalizar otras cosas-->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -92,28 +91,124 @@
     <div class="dlc-cards">
         <div class="container-md p-5">
             <div class="row pt-5">
-                <h3 class="text-center pb-5 pt-5 h1">See you in the fog...</h3>
+                <h3 class="text-center pb-5 pt-5 h1 text-light">See you in the fog...</h3>
             </div>
 
             <div class="row">
+                <!-- Carta 1 -->
                 <div class="col-sm">
-                    <div class="card w-100 card-border mb-5" style="width: 18rem;">
-                        <img src="img/observer_arch.png" class="card-img-top" alt="...">
+                    <div class="card w-100 mb-5 card-border :hover" style="width: 18rem;">
+                        <img src="img/dlc.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
                 </div>
+                <!-- Carta 2 -->
+                <div class="col-sm">
+                    <div class="card w-100 mb-5 card-border :hover" style="width: 18rem;">
+                        <img src="img/bg2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- Carta 3 -->
+                <div class="col-sm">
+                    <div class="card w-100 mb-5 card-border :hover" style="width: 18rem;">
+                        <img src="img/slide2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- MORE INFO -->
+                <div class="row py-5">
+                    <div class="col">
+                        <h1 class="text-center" style="color: var(--bs-dark)">Available on...</h1>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center avai" style="color: var(--bs-dark)" text>
+                    <div class="col-2"><a href="#">Steam</a></div>
+                    <div class="col-2"><a href="#">Epic Games</a></div>
+                    <div class="col-1"><a href="#">XBOX</a></div>
+                    <div class="col-1"><a href="#">PS5</a></div>
+                    <div class="col-1"><a href="#">Nintendo</a></div>
+                </div>
+
+
             </div>
         </div>
 
     </div>
 
-    <!--SEPARADOR AMIIBOS-->
+    <!--SEPARADOR POSTFOG-->
+    <div id="separador-postfog">
+        <div class="content bg-dark"></div>
+    </div>
 
-    <!--AMIIBOS-->
+
+    <!--PERKS-->
+    <div id="perks" class="px-5 pb-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center text-white text-shadow py-5 mt-5">Why to stop using some perks or use others?</h2>
+            </div>
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+                <!-- PERK1 -->
+                <div class="col-sm">
+                    <img class="w-100 perk :hover" src="img/forum_icon_8cfbea0547.png" alt="">
+                    <div class="text-center text-white">
+                        <span class="perkname h-5 p-2">PERKNAME</span>
+                    </div>
+                </div>
+                <!-- PERK1 -->
+                <div class="col-sm">
+                    <img class="w-100 perk :hover" src="img/forum_icon_8cfbea0547.png" alt="">
+                    <div class="text-center text-white">
+                        <span class="perkname h-5 p-2">PERKNAME</span>
+                    </div>
+                </div>
+                <!-- PERK1 -->
+                <div class="col-sm">
+                    <img class="w-100 perk :hover" src="img/forum_icon_8cfbea0547.png" alt="">
+                    <div class="text-center text-white">
+                        <span class="perkname h-5 p-2">PERKNAME</span>
+                    </div>
+                </div>
+                <!-- PERK4 -->
+                <div class="col-sm">
+                    <img class="w-100 perk :hover" src="img/forum_icon_8cfbea0547.png" alt="">
+                    <div class="text-center text-white">
+                        <span class="perkname  h-5 p-2">PERKNAME</span>
+                    </div>
+                </div>
+                <!-- button -->
+                <div class="row py-5">
+                    <div class="col-3">a</div>
+                    <div class="col-6 text-center">
+                        a
+                        <a href="#" class="link-dark">
+                            <button class="btn btn-warning btn-lg rounded-pill border-5 px-5">
+                                More perks...
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-3">a</div>
+                </div>
+                <!-- Separator footer -->
+                <div id="separator-perks-footer">
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
 
     <!--PLAY-->
 
@@ -121,9 +216,7 @@
     <!--  CDN: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
     <script src="js/popper.min.js"></script>
     <!--Script de bootstrap-->
-    <script src="js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 
 

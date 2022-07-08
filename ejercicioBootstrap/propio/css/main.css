@@ -45,3 +45,71 @@
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
 }
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.035);
+}
+
+.dlc-cards{
+    background: rgb(255, 255, 255);
+    background: url(../img/fog-background.jpg), linear-gradient(0deg, rgba(255, 255, 255, 1) 5%, rgb(49, 49, 49, 1) 75%);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    margin-top: -20px;
+}
+
+a{
+    text-decoration:none;
+}
+
+#separador-postfog{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador-postfog .content{
+    background: url(../img/fog-background.jpg);
+    width: 110%;
+    height: 100px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#perks {
+    background: url(../img/bg1.png), url(../img/fog-background.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}
+
+.perk {
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+
+.perk:hover {
+    transform: scale(1.1);
+}
+
+.perkname {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#separator-perks-footer {
+    height: 20vw;
+}
