@@ -113,3 +113,11 @@ a{
 #separator-perks-footer {
     height: 20vw;
 }
+
+#play {
+    background-color: rgba(218, 218, 218, 0.103);
+}
+
+#footer{
+    background-color:darkgray;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "gitmoji",
+  "version": "1.0.0",
+  "description": "Adding nice commits to Git and GitHub using emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuesta/gitmoji-cli.git"
+  },
+  "author": "carloscuesta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloscuesta/gitmoji-cli/issues"
+  },
+  "homepage": "https://github.com/carloscuesta/gitmoji-cli#readme"
+}
